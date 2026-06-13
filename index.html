@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Halder Hardware & Sanitary - Your trusted hardware and sanitary store in Helencha, Bagdah, North 24 Pgs. Quality products, expert service.">
+    <meta name="keywords"
+        content="hardware store, sanitary, plumbing, tools, pipes, faucets, Bagdah, Helencha, North 24 Parganas">
+    <title>Halder Hardware & Sanitary | Helencha, Bagdah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 32L20 8L32 32" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 24H28" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                        <circle cx="20" cy="8" r="3" fill="currentColor" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">HALDER</span>
+                    <span class="logo-sub">Hardware &amp; Sanitary</span>
+                </div>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+                <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+                <li><a href="#products" class="nav-link" id="nav-products">Products</a></li>
+                <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+                <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Light/Dark Mode Toggle -->
+                <button class="theme-toggle" id="themeToggle" title="Toggle Light/Dark Mode" aria-label="Toggle theme">
+                    <span class="toggle-icon sun-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                            <path
+                                d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <span class="toggle-icon moon-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </button>
+
+                <a href="https://wa.me/918348439554" target="_blank" class="nav-whatsapp" id="nav-whatsapp-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    WhatsApp
+                </a>
+
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="slider-wrapper">
+        <div class="slides-container">
+
+            <!-- ========== HERO SECTION ========== -->
+            <section class="slide hero active" id="home">
+                <div class="hero-bg-overlay"></div>
+                <div class="hero-particles" id="heroParticles"></div>
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Trusted Since Decades
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">HALDER</span>
+                        <span class="title-line accent">Hardware</span>
+                        <span class="title-line">&amp; Sanitary</span>
+                    </h1>
+                    <p class="hero-tagline">Your Complete Hardware &amp; Plumbing Solution</p>
+                    <p class="hero-desc">Premium quality tools, pipes, faucets, sanitary fittings and construction materials —
+                        all under one roof in Helencha, Bagdah.</p>
+                    <div class="hero-cta">
+                        <a href="#products" class="btn btn-primary" id="hero-explore-btn">
+                            <span>Explore Products</span>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline" id="hero-contact-btn">
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Products</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-scroll-indicator">
+                    <div class="scroll-line"></div>
+                    <span>Scroll Down</span>
+                </div>
+
+                <!-- ========== MARQUEE STRIP (Embedded inside slide) ========== -->
+                <div class="marquee-strip">
+                    <div class="marquee-track">
+                        <span>🔧 Hand Tools</span>
+                        <span>🚿 Sanitary Fittings</span>
+                        <span>🪠 P.V.C Pipes</span>
+                        <span>🪠 U.P.V.C Pipes</span>
+                        <span>✨ Luxury Bathroom Fittings</span>
+                        <span>🔐 Locks &amp; Security</span>
+                        <span>🚪 Door Handles &amp; Handles</span>
+                        <span>🚰 Faucets &amp; Taps</span>
+                        <span>⚡ Electrical Items</span>
+                        <span>🏗️ Construction Materials</span>
+                        <span>🔩 Nuts &amp; Bolts</span>
+                        <span>💧 Water Tanks</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== ABOUT SECTION ========== -->
+            <section class="slide about-section" id="about">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-image-col" data-animate="fade-left">
+                            <div class="about-img-wrapper">
+                                <div class="about-img-frame">
+                                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800"
+                                        alt="Halder Hardware Store interior" class="about-img" />
+                                </div>
+                                <div class="about-badge-card">
+                                    <div class="badge-icon">👨‍💼</div>
+                                    <div class="badge-info">
+                                        <span class="badge-name">Tarun Halder</span>
+                                        <span class="badge-role">Owner &amp; Proprietor</span>
+                                    </div>
+                                </div>
+                                <div class="experience-tag">
+                                    <span class="exp-number">10+</span>
+                                    <span class="exp-text">Years of<br>Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-content-col" data-animate="fade-right">
+                            <div class="section-label">About Us</div>
+                            <h2 class="section-title">Where Quality Meets <span class="text-accent">Reliability</span></h2>
+                            <p class="about-desc">Welcome to <strong>Halder Hardware &amp; Sanitary</strong> — the most trusted
+                                name for hardware and sanitary supplies in Helencha, Bagdah and surrounding areas of North 24
+                                Parganas.</p>
+                            <p class="about-desc">We pride ourselves on offering a comprehensive range of premium products
+                                including plumbing fixtures, construction tools, sanitary fittings, electrical supplies, and
+                                much more — all at competitive prices with honest service.</p>
+
+                            <div class="about-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">✅</div>
+                                    <div>
+                                        <h4>100% Genuine Products</h4>
+                                        <p>Only authentic, high-quality branded and local products</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">🤝</div>
+                                    <div>
+                                        <h4>Expert Guidance</h4>
+                                        <p>Personal advice from experienced hardware professionals</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">💰</div>
+                                    <div>
+                                        <h4>Best Prices Guaranteed</h4>
+                                        <p>Competitive pricing with no compromise on quality</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">📍</div>
+                                    <div>
+                                        <h4>Local &amp; Trusted</h4>
+                                        <p>Serving Helencha, Bagdah &amp; nearby villages for over a decade</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== PRODUCTS SECTION ========== -->
+            <section class="slide products-section" id="products">
+                <div class="container">
+                    <div class="section-header" data-animate="fade-up">
+                        <div class="section-label">Our Products</div>
+                        <h2 class="section-title">Premium <span class="text-accent">Product Range</span></h2>
+                        <p class="section-desc">Explore our extensive collection of hardware, sanitary, and plumbing products —
+                            carefully sourced for quality and durability.</p>
+                    </div>
+
+                    <div class="products-grid">
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">🚿</div>
+                            <h3>Sanitary Fittings</h3>
+                            <p>Faucets, taps, showers, washbasins, WC fittings, and complete bathroom solutions from top
+                                brands.</p>
+                        </div>
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">🔧</div>
+                            <h3>Plumbing &amp; Pipes</h3>
+                            <p>Complete plumbing solutions — all pipe types including P.V.C, U.P.V.C, CPVC, GI pipes,
+                                joints, fittings and valves.</p>
+                        </div>
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">✨</div>
+                            <h3>Luxury Fittings</h3>
+                            <p>Elevate your bathroom with our premium range of designer fittings — where style meets
+                                superior craftsmanship.</p>
+                        </div>
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">🔐</div>
+                            <h3>Locks &amp; Security</h3>
+                            <p>Wide range of locks for every security need — from padlocks to advanced mortise and digital
+                                locks.</p>
+                        </div>
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">🚪</div>
+                            <h3>Indoor Fittings</h3>
+                            <p>Premium door handles, window fittings, hinges, and all indoor hardware to beautify your home
+                                interiors.</p>
+                        </div>
+                        <div class="product-card" data-animate="fade-up">
+                            <div class="product-icon">🛠️</div>
+                            <h3>Tools &amp; Hardware</h3>
+                            <p>Hand tools, power tools, nuts, bolts, screws, and all kinds of general hardware items for
+                                every job.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== SERVICES SECTION ========== -->
+            <section class="slide services-section" id="services">
+                <div class="container">
+                    <div class="section-header" data-animate="fade-up">
+                        <div class="section-label">Our Services</div>
+                        <h2 class="section-title">How We <span class="text-accent">Serve You</span></h2>
+                        <p class="section-desc">Beyond just selling products, we offer complete guidance and support for all
+                            your hardware and plumbing needs.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <div class="service-card" data-animate="fade-up">
+                            <div class="service-icon-wrap">🧠</div>
+                            <h3>Free Consultation</h3>
+                            <p>Get free expert advice on the best products for your specific project.</p>
+                        </div>
+                        <div class="service-card" data-animate="fade-up">
+                            <div class="service-icon-wrap">📦</div>
+                            <h3>Bulk Supply</h3>
+                            <p>Wholesale and bulk purchasing available for contractors and builders.</p>
+                        </div>
+                        <div class="service-card" data-animate="fade-up">
+                            <div class="service-icon-wrap">🚚</div>
+                            <h3>Local Delivery</h3>
+                            <p>Convenient delivery service to Helencha, Bagdah and surrounding areas.</p>
+                        </div>
+                        <div class="service-card" data-animate="fade-up">
+                            <div class="service-icon-wrap">💬</div>
+                            <h3>WhatsApp Orders</h3>
+                            <p>Order instantly via WhatsApp! We'll handle your requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== CONTACT SECTION ========== -->
+            <section class="slide contact-slide" id="contact">
+                <div class="contact-section">
+                    <div class="container">
+                        <div class="section-header" data-animate="fade-up">
+                            <div class="section-label">Get In Touch</div>
+                            <h2 class="section-title">Visit Us or <span class="text-accent">Call Us</span></h2>
+                            <p class="section-desc">We're here to help! Walk in, call us, or reach us on WhatsApp.</p>
+                        </div>
+
+                        <div class="contact-grid">
+                            <div class="contact-card-main" data-animate="fade-left">
+                                <div class="contact-card-header">
+                                    <div class="store-avatar">🏪</div>
+                                    <div>
+                                        <h3>Halder Hardware &amp; Sanitary</h3>
+                                        <p>Your trusted local hardware partner</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-details">
+                                    <div class="contact-detail-item">
+                                        <div class="detail-icon">📍</div>
+                                        <div class="detail-text">
+                                            <span class="detail-label">Address</span>
+                                            <span class="detail-value">Helencha, Bagdah<br>North 24 Parganas<br>Pin Code:
+                                                743250</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-detail-item">
+                                        <div class="detail-icon">📞</div>
+                                        <div class="detail-text">
+                                            <span class="detail-label">Phone</span>
+                                            <a href="tel:+919064990977" class="detail-value">+91 90649 90977</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="contact-action-btns">
+                                    <a href="tel:+919064990977" class="action-btn call-btn">Call Now</a>
+                                    <a href="https://wa.me/918348439554" target="_blank" class="action-btn whatsapp-btn">WhatsApp</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-map-col" data-animate="fade-right">
+                                <div class="map-container">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.11!2d88.7800!3d22.9500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU3JzA0LjAiTiA4OMKwNDYnNDguMCJF!5e0!3m2!1sen!2sin!4v123456789" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== FOOTER ========== -->
+                <footer class="footer" id="footer">
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <p>© 2025 <strong>Halder Hardware &amp; Sanitary</strong>. All rights reserved.</p>
+                            <p class="footer-credit">Owned by <strong>Tarun Halder</strong></p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+    </div>
+
+    <!-- ========== PRESENTATION CONTROL BAR ========== -->
+    <div class="presentation-controls" id="presentationControls">
+        <button class="control-btn" id="prevSlide" aria-label="Previous Slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+        </button>
+        <div class="slide-dots" id="slideDots"></div>
+        <span class="slide-indicator" id="slideCounter">1 / 5</span>
+        <button class="control-btn" id="nextSlide" aria-label="Next Slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <!-- ========== FLOATING WHATSAPP BUTTON ========== -->
+    <a href="https://wa.me/918348439554" target="_blank"
+        class="float-whatsapp" id="float-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp Chat">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
